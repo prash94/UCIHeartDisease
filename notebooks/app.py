@@ -31,7 +31,6 @@ def predict():
     return render_template('index.html',
                            prediction_text='Risk of this patient to have a heart disease is {}'.format(output))
 
-
 # main function to run this flask app
 if __name__ == "__main__":
     app.run(debug=True)
